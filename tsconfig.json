@@ -18,5 +18,6 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "types": ["@types/leaflet", "@firebase/app-types", "@firebase/firestore-types", "@types/react-leaflet", "@types/firebase"]
 }
